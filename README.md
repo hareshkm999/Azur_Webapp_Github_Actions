@@ -16,10 +16,10 @@ source activate ./env
 
 ```
 
-docker build -t circleci_haresh .
+docker build -t azur_github_action .
 docker image ls
 docker login
-docker tag 0cdd7a19c265 hareshkm999/circleci_haresh:firsttry
-docker run -p 80:80 circleci_haresh:firsttry
-docker push hareshkm999/circleci_haresh:firsttry
+docker tag 5d10b12679a4 hareshkm999/azur_github_action:firsttry
+docker run -p 80:80 azur_github_action:firsttry
+docker push hareshkm999/azur_github_action:firsttry
 ```
