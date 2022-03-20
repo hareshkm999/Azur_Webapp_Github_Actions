@@ -3,7 +3,7 @@ from fastapi import FastAPI
 import os
 
 # load environment variables
-port = 80
+port = 5900
 
 # initialize FastAPI
 app = FastAPI()
