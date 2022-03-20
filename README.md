@@ -16,10 +16,10 @@ source activate ./env
 
 ```
 
-docker build -t azur_github_action .
+docker build -t azur_github_action999:firsttry .
 docker image ls
 docker login
-docker tag 5d10b12679a4 hareshkm999/azur_github_action:firsttry
-docker run -p 80:80 azur_github_action:firsttry
-docker push hareshkm999/azur_github_action:firsttry
+docker tag c52175a6eed4 hareshkm999/azur_github_action999:firsttry
+docker run -p 5900:5900 azur_github_action999:firsttry
+docker push hareshkm999/azur_github_action999:firsttry
 ```
