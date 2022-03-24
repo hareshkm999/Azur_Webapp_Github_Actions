@@ -19,7 +19,7 @@ CORS(app)
 @app.route("/", methods=['GET'])
 @cross_origin()
 def home():
-    return {"data": "Application ran successfully - FastAPI release v3.0 from app.py"}
+    return {"data": "Application ran successfully - FastAPI release v5.0 from app.py"}
 
 
 
